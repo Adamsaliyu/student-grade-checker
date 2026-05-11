@@ -35,7 +35,7 @@
                     echo"Score : {$userscore} is not valid "."<br>";
                     echo"Grade: invalid "."<br>";
                     echo"Status : invalid"."<br>";
-                    echo"massage : Please enter a valid score"."<br>";
+                    echo"message : Please enter a valid score"."<br>";
                 }
                 elseif($userscore >= 70){
                     echo"Name : {$profileName} "."<br>";
@@ -72,7 +72,7 @@
                     echo"Score : {$userscore} is not valid "."<br>";
                     echo"Grade: invalid "."<br>";
                     echo"Status : invalid"."<br>";
-                    echo"massage : Please enter a valid score"."<br>";
+                    echo"message : Please enter a valid score"."<br>";
                 }     
                 else{
                     echo"Invalid result";
