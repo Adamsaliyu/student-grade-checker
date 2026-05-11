@@ -7,14 +7,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 75vh;
+    min-height: 100vh;
+    background-color: rgb(121, 118, 118);
 }
 
 .box {
     display: flex;
     border-radius: 5px;
-    height: 400px;
+    height: 500px;
     width: 800px;
+    background-color: white;
+}
+
+h3{
+    font-size: 30px;
+    color: hsl(138, 77%, 29%);
 }
 
 .input-box{
