@@ -45,6 +45,11 @@ input{
     font-size: 6px;
     font-weight: 600;
 }
+input:hover{
+    border: 2px solid hsl(138, 77%, 29%);
+    box-shadow: 2px 2px 2px black;
+}
+
 label{
     font-size: 19px;
     font-weight: 600;
