@@ -28,10 +28,8 @@
 
                 $scores[] = $_POST["grade"];
 
-                print_r($scores);
-
                 if( $userscore > 100){
-                    echo"<p class ='text'>Name : {$profileName}</p>  "."<br>";
+                    echo"Name : {$profileName}  "."<br>";
                     echo"Score : {$userscore} is not valid "."<br>";
                     echo"Grade: invalid "."<br>";
                     echo"Status : invalid"."<br>";
